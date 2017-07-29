@@ -1,0 +1,51 @@
+<h1 id="psiandroidapplication">PSI Android Application</h1>
+
+<h3 id="introduction">Introduction</h3>
+
+<p>This is android application for showing Singapore Pollutant Standards Index
+(https://data.gov.sg/dataset/psi)</p>
+
+<p>feature list on this application are:</p>
+
+<ul>
+<li><p>Showing PSI Based on region (east,west,north,central,south) on google Maps</p></li>
+
+<li><p>Chart of 24 hours PSI</p></li>
+
+<li><p>Chart of Pollutant sub indices</p>
+
+<p>see javadoc (https://egiadtya.github.io/psi-android-javadoc/)</p></li>
+</ul>
+
+<h3 id="installation">Installation</h3>
+
+<p>First, you need android studio to open this project. check this link if you doesn't have android studio https://developer.android.com/studio</p>
+
+<ol>
+<li><p>Clone this project to your local project</p>
+
+<pre><code>git clone https://github.com/egiadtya/psi-android
+</code></pre></li>
+
+<li><p>Open android studio, and then open psi-android directory.</p></li>
+
+<li><p>Build &amp; Run, and application should be install to emulator or connected device.</p></li>
+</ol>
+
+<h3 id="dependency">Dependency</h3>
+
+<ul>
+<li><a href="http://jakewharton.github.io/butterknife/">ButterKnife 8.4.0</a> for Inject view</li>
+
+<li><a href="http://square.github.io/retrofit/">Retrofit 2.1.0</a> used as HTTP Client for consume API call</li>
+
+<li><a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart 3.0.2</a> for showing chart</li>
+
+<li><a href="https://developers.google.com/android/guides/setup">Play Service Maps</a> for showing maps</li>
+</ul>
+
+<h3 id="screenshot">Screenshot</h3>
+
+<p><img src="https://github.com/egiadtya/psi-android/blob/master/screenshot/device-2017-07-29-193601.png" alt="PSI on Maps" />
+<img src="https://github.com/egiadtya/psi-android/blob/master/screenshot/device-2017-07-29-193635.png" alt="24Hour PSI Chart" />
+<img src="https://github.com/egiadtya/psi-android/blob/master/screenshot/device-2017-07-29-193658.png" alt="Pollutant sub indices Chart" /></p>
