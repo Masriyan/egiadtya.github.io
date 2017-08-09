@@ -39,10 +39,12 @@ feature on this SDK:
 ### Setup EbizuPublisher Application ID
 
 for setup application id you can put on Android Manifest, it is done as follows
-    
+
+    ```
     <meta-data
          android:name="com.ebizu.APPLICATION_ID"
          android:value="<YOUR APPLICATION ID>" />
+    ```
 
 ### Initializing EbizuPublisher
 
