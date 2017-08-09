@@ -43,6 +43,7 @@ for setup application id you can put on Android Manifest, it is done as follows
     <meta-data
          android:name="com.ebizu.APPLICATION_ID"
          android:value="<YOUR APPLICATION ID>" />
+
 ### Initializing EbizuPublisher
 
 Before you can use EbizuPublisher in your app, you must initialize it first. It is done as follows
@@ -90,6 +91,7 @@ Example :
          }
 
 ### Login EbizuPublisher
+
 To login user app into EbizuPublisher, you can using following method
     
     EbizuPublisher.getInstance().login(ebizuUser);
