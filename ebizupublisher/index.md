@@ -5,6 +5,7 @@
 layout: home
 ---
 
+# Ebizu Publisher SDK For Android 
 *version 1.0.0*
 ### Introduction
 An Android library providing APIs to interact with EbizuPublisher 
@@ -13,7 +14,6 @@ feature on this SDK:
 
  * Tracking user location based on user activity like (Walking, On Bicycle,In Vehicle, etc) on background mode
  
- see javadoc
 
 ### Installation
 
