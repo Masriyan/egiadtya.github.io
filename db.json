@@ -1,5 +1,5 @@
 {
-  "pulsa": [
+  "pulsa":
     {
   "success": true,
   "data": {
@@ -222,5 +222,4 @@
     ]
   }
 }
-  ]
 }
